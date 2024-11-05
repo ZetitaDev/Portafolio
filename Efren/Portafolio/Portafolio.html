@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Digital</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .section-header {
+            color: #17a2b8;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        .card-section {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            border: none;
+        }
+        .card-section:hover {
+            transform: scale(1.05);
+        }
+        .btn-download {
+            color: white;
+            background-color: #17a2b8;
+        }
+        .navbar-dark .navbar-nav .nav-link {
+            color: rgba(255,255,255,.8);
+            transition: color 0.2s;
+        }
+        .navbar-dark .navbar-nav .nav-link:hover {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-dark text-white text-center py-4">
+        <h1>Mi Portafolio Digital</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#estudios">Estudios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#personalidad">Personalidad</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#experiencia">Experiencia</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#capacidades">Capacidades</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#curriculo">Currículo</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+<!-- Proyectos -->
+<section id="proyectos" class="mb-5">
+    <h2 class="text-center">Proyectos</h2>
+    <p class="text-center">Aquí puedes ver algunos de los proyectos en los que he trabajado, tanto individual como en junto a un equipo.</p>
+    <div class="row">
+        <!-- Proyecto 1 -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Tienda</h5>
+                    <p class="card-text">Sistema de compra y venta de una tienda.</p>
+                    <img src="Tienda.png" class="card-img-top" alt="Proyecto 1">
+                </div>
+            </div>
+        </div>
+        <!-- Proyecto 2 -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Banco</h5>
+                    <p class="card-text">Formulario de inscripcion de un banco digital.</p>
+                </div>
+                <img src="Banco.png" class="card-img-top" alt="Proyecto 2">
+            </div>
+        </div>
+        <!-- Proyecto 3 -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Nomina</h5>
+                    <p class="card-text">Sistema de registro de nomina de empleados.</p>
+                    <img src="Nomina.png" class="card-img-top" alt="Proyecto 3">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Estudios -->
+        <section id="estudios" class="mb-5">
+            <h2 class="section-header">Estudios</h2>
+            <div class="card card-section mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Formación Académica</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-check-circle text-info"></i> Curso de electrónica básica - INFOTEP.</li>
+                        <li><i class="fas fa-check-circle text-info"></i> Curso de JavaScript con Node.js - Aprende.org</li>
+                        <li><i class="fas fa-check-circle text-info"></i> Técnico en Desarrollo y Administración de Aplicaciones Informáticas - Centro Educativo Politécnico Virgen de la Altagracia.</li>
+                    </ul>
+                    <a href="ab9d517b-6825-43b8-88dd-dc05dd70c2e0_certificado (1)_page-0001.jpg" download class="btn btn-download mt-3">Descargar Curso de JavaScript</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Personalidad -->
+        <section id="personalidad" class="mb-5">
+            <h2 class="section-header">Personalidad</h2>
+            <div class="card card-section mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Mis rasgos personales</h5>
+                    <p class="card-text">Soy una persona muy profesional que puede llevar a cabo cualquier tarea en el entorno de desarrollo,
+                        soy un excelente trabajador en equipo y tengo buena quimica y comprension con mis compañeros.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experiencia -->
+        <section id="experiencia" class="mb-5">
+            <h2 class="section-header">Experiencia</h2>
+            <div class="card card-section mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Experiencia Laboral</h5>
+                        <li><i class="fas fa-check-circle text-info"></i> Pasantia en el area de computo - COOPMARENA Beach Resort.</li>
+                        <li><i class="fas fa-check-circle text-info"></i> Reparacion de equipos electronicos - ElectroMax.</li>
+                        <li><i class="fas fa-check-circle text-info"></i> Ayudante de reparacion - RD Soporte Tecnico.</li>
+                </div>
+            </div>
+        </section>
+
+        <!-- Capacidades -->
+        <section id="capacidades" class="mb-5">
+            <h2 class="section-header">Capacidades</h2>
+            <div class="card card-section mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Habilidades y Competencias</h5>
+                    <li><i class="fas fa-check-circle text-info"></i> Inteligencia logica.</li>
+                    <li><i class="fas fa-check-circle text-info"></i> Resolucion de conflictos.</li>
+                    <li><i class="fas fa-check-circle text-info"></i> Liderazgo carismatico.</li>
+                </div>
+            </div>
+        </section>
+
+        <!-- Currículo -->
+        <section id="curriculo" class="mb-5">
+            <h2 class="section-header">Currículo</h2>
+            <div class="card card-section mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Mi Currículo</h5>
+                    <p class="card-text">Puedes descargar mi currículo tanto en español como en ingles para más detalles.</p>
+                    <a href="Curriculo.png" download class="btn btn-download">Descargar Currículo</a>
+                    <a href="Curriculum.png" download class="btn btn-download">Download Curriculum</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 - Mi Portafolio Digital</p>
+    </footer>
+
+    <!-- Bootstrap JS, Popper.js, jQuery, and FontAwesome -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- FontAwesome icons -->
+</body>
+</html>
